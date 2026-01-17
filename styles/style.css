@@ -21,3 +21,49 @@
   --spacing-150: 12px;
   --spacing-300: 24px;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: var(--spacing-300);
+
+  border-radius: 24px;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  background-color: var(--white);
+  width: fit-content;
+  height: fit-content;
+}
+
+.blog-content {
+  .blog-category {
+    /* Placeholder */
+  }
+
+  p .publish-date {
+    /* Placeholder */
+  }
+
+  .blog-description {
+    /* Placeholder */
+  }
+
+  .blog-title {
+    /* Placeholder */
+  }
+
+  .blog-description {
+    /* Placeholder */
+  }
+}
+
+.card-author {
+  /* Placeholder */
+}
