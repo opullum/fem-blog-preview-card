@@ -1,0 +1,12 @@
+/* Declaring the required font faces for the challenge */
+
+@font-face {
+  font-family: "FigTree-Variable";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FigTree-Italic";
+  src: url("/assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}

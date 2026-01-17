@@ -1,0 +1,30 @@
+/* Specified text presets for the challenge */
+@import url("/styles/fonts.css");
+
+.text-preset-1 {
+  font-family: "FigTree-Variable", "Arial", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.text-preset-2 {
+  font-family: "FigTree-Variable", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.text-preset-3 {
+  font-family: "FigTree-Variable", "Arial", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.text-preset-3-extrabold {
+  font-family: "FigTree-Variable", "Arial", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 150%;
+}
