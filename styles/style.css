@@ -22,24 +22,36 @@
   --spacing-300: 24px;
 }
 
+body {
+  background-color: var(--yellow);
+}
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  padding: var(--spacing-300);
-
-  border-radius: 24px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .blog-card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 24px;
 
   background-color: var(--white);
-  width: fit-content;
+  width: 327px;
   height: fit-content;
+
+  padding: var(--spacing-300);
+
+  border-radius: var(--spacing-300);
+  .blog-image {
+    max-width: 279px;
+    border-radius: 10px;
+  }
 }
 
 .blog-content {
@@ -65,5 +77,11 @@ main {
 }
 
 .card-author {
-  /* Placeholder */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img {
+    width: 32px;
+  }
 }
