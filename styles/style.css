@@ -42,12 +42,14 @@ main {
   gap: 24px;
 
   background-color: var(--white);
+
   width: 327px;
   height: fit-content;
 
   padding: var(--spacing-300);
 
   border-radius: var(--spacing-300);
+
   .blog-image {
     max-width: 279px;
     border-radius: 10px;
@@ -55,16 +57,25 @@ main {
 }
 
 .blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
   .blog-category {
-    /* Placeholder */
+    width: fit-content;
+    padding: 4px 12px;
+    background-color: var(--yellow);
+    border-radius: 4px;
   }
 
   p .publish-date {
     /* Placeholder */
   }
 
-  .blog-description {
-    /* Placeholder */
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .blog-title {
@@ -80,6 +91,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 12px;
 
   img {
     width: 32px;
