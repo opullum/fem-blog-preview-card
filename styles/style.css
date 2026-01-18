@@ -39,7 +39,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: var(--spacing-300);
 
   background-color: var(--white);
 
@@ -65,27 +65,27 @@ main {
 .blog-content {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: var(--spacing-150);
 
   .blog-category {
     width: fit-content;
-    padding: 4px 12px;
+    padding: var(--spacing-50) var(--spacing-150);
     background-color: var(--yellow);
     border-radius: 4px;
   }
 
   p .publish-date {
-    /* Placeholder */
+    color: var(--gray-950);
   }
 
   .card-content {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: var(--spacing-150);
   }
 
   .blog-title {
-    /* Placeholder */
+    color: var(--gray-950);
   }
 
   .blog-description {
@@ -97,7 +97,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  gap: 12px;
+  gap: var(--spacing-150);
 
   width: 100%;
 
