@@ -28,3 +28,21 @@
   font-weight: 800;
   line-height: 150%;
 }
+
+@media (min-width: 768px) {
+  .text-preset-1 {
+    font-size: 1.5rem;
+  }
+
+  .text-preset-2 {
+    font-size: 1rem;
+  }
+
+  .text-preset-3 {
+    font-size: 0.875rem;
+  }
+
+  .text-preset-3-extrabold {
+    font-size: 0.875rem;
+  }
+}
