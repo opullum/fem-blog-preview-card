@@ -72,6 +72,7 @@ main {
     padding: var(--spacing-50) var(--spacing-150);
     background-color: var(--yellow);
     border-radius: 4px;
+    color: var(--gray-950);
   }
 
   p .publish-date {
@@ -103,6 +104,10 @@ main {
 
   img {
     width: 32px;
+  }
+
+  p .author-name {
+    color: var(--gray-950);
   }
 }
 
