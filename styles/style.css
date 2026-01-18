@@ -51,7 +51,10 @@ main {
   border-radius: var(--spacing-300);
 
   .blog-image {
-    max-width: 279px;
+    height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
     border-radius: 10px;
   }
 }
@@ -83,15 +86,17 @@ main {
   }
 
   .blog-description {
-    /* Placeholder */
+    color: var(--gray-500);
   }
 }
 
 .card-author {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: start;
   gap: 12px;
+
+  width: 100%;
 
   img {
     width: 32px;
