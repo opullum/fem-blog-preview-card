@@ -105,3 +105,9 @@ main {
     width: 32px;
   }
 }
+
+@media (min-width: 768px) {
+  .blog-card {
+    width: 384px;
+  }
+}
