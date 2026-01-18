@@ -2,6 +2,7 @@
 
 @import url("/styles/presets.css");
 
+/* Universal Reset for all elements */
 * {
   margin: 0;
   padding: 0;
@@ -56,9 +57,11 @@ main {
   .blog-image {
     height: 200px;
     max-height: 200px;
-    object-fit: cover;
+
     width: 100%;
+
     border-radius: 10px;
+    object-fit: cover;
   }
 }
 
@@ -68,11 +71,13 @@ main {
   gap: var(--spacing-150);
 
   .blog-category {
+    background-color: var(--yellow);
+    color: var(--gray-950);
+
     width: fit-content;
     padding: var(--spacing-50) var(--spacing-150);
-    background-color: var(--yellow);
+
     border-radius: 4px;
-    color: var(--gray-950);
   }
 
   p .publish-date {
@@ -111,6 +116,7 @@ main {
   }
 }
 
+/* Media queries for 768px and above layouts */
 @media (min-width: 768px) {
   .blog-card {
     width: 384px;
